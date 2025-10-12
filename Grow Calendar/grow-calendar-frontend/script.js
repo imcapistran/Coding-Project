@@ -9,7 +9,7 @@ async function handleZipSearch() {
 
   try {
     // Call backend API
-    const response = await fetch(`/api/weather?location=${encodeURIComponent(input)}`);
+    const response = await fetch(`/api/weather?zip=${encodeURIComponent(input)}`);
     if (!response.ok) {
       throw new Error('Failed to fetch weather data');
     }

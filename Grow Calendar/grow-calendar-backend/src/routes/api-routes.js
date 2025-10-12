@@ -1,31 +1,42 @@
 import express from 'express';
-const router = express.Router();
-
+import path from 'path';
+import fs from 'fs';
 // allows for frontend to backend communication
 import axios from 'axios';
 
+const router = express.Router();
+
+//loads zipFile
+const zipFile = path.resolve('../data/zip.txt')
+const zipData = {};
+
+//reads zipFile
+fs.readFileSync(zipFile, 'utf8')
+  .split('\n')
+  .slice(1)
+  .forEach(line => {
+    const [zip, lat, lng] = line.trim().split(',');
+    zipData[zip] = { lat: parseFloat(lat), lon: parseFloat(lng) };
+  });
+
+
+  console.log(`Loaded ${Object.keys(zipData).length} ZIP codes`);
 //function to convert zip/city into lat & lon
-async function getCoordinates(location){
-  const locations = {
-    '30303': { lat: 33.7489, lon: -84.3879 }, // Atlanta ZIP
-    'atlanta': { lat: 33.7489, lon: -84.3879 }
+async function getCoordinates(zip) {
+  if (zipData[zip]) {
+    return zipData[zip];
   }
-
-  const key = location.trim().toLowerCase();
-
-  if(locations[key]) return locations[key];
-  throw new Error('Location not found');
 }
 
 // API route for weather
 router.get('/weather', async (req, res) => {
-  const location = req.query.location;
-  if (!location) {
-    return res.status(400).json({ error: 'Location is required' });
+  const zip = req.query.zip;
+  if (!zip) {
+    return res.status(400).json({ error: 'ZIP code is required' });
   }
   try {
     //gets coordinates
-    const { lat, lon } = await getCoordinates(location);
+    const { lat, lon } = await getCoordinates(zip);
 
     const pointUrl = `https://api.weather.gov/points/${lat},${lon}`;
     console.log('Point URL: ', pointUrl);
@@ -62,7 +73,7 @@ router.get('/weather', async (req, res) => {
     }));
 
     const weather = {
-      location,
+      location: zip,
       temperature: `${firstPeriod.temperature}°${firstPeriod.temperatureUnit}`,
       condition: firstPeriod.shortForecast,
       details: firstPeriod.detailedForecast,
@@ -75,7 +86,7 @@ router.get('/weather', async (req, res) => {
 
   } catch (err) {
     console.error(err.message);
-    res.status(500).json({ error: 'failed to fetch weather data'});
+    res.status(500).json({ error: 'Failed to fetch weather data' });
   }
 
   });
