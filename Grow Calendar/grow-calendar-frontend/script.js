@@ -14,16 +14,25 @@ async function handleZipSearch() {
       throw new Error('Failed to fetch weather data');
     }
 
-    const data = await response.json();
+   const data = await response.json();
+   const weeklyForecast = data.weeklyForecast;
 
-    // Display results nicely
-    resultsDiv.innerHTML = `
-      <h3>Weather for ${data.location}</h3>
-      <p>Temperature: ${data.temperature}</p>
-      <p>Condition: ${data.condition}</p>
-    `;
+   resultsDiv.innerHTML = '';
+
+   weeklyForecast.forEach(day => {
+      const dayDiv = document.createElement('div');
+      dayDiv.classList.add('forecast-day');
+      dayDiv.innerHTML = `
+        <h4>${day.name}</h4>
+        <p>Temperature: ${day.temperature}</p>
+        <p>Condition: ${day.condition}</p>
+        <p>Details: ${day.details}</p>        
+      `;
+      resultsDiv.appendChild(dayDiv);
+   });
   } catch (error) {
     console.error(error);
-    resultsDiv.innerText = 'Error fetching weather data.';
+    resultsDiv.innerText = 'Error fetching weather data. Please try again.';
   }
 }
+

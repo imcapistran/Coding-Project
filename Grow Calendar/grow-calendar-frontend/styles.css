@@ -5,3 +5,12 @@ html {
 body {
     text-align: center;;
 }
+
+#zipResults {
+    background-color: rgb(255, 230, 0);
+    margin: 20px auto;
+    padding: 20px;
+    overflow-x: auto;
+    display: inline-flex;
+    border-radius: 2rem;
+}
