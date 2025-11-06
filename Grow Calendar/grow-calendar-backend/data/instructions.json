@@ -1,0 +1,1723 @@
+{
+    "crops": {
+        "asparagus": {
+            "sowed": {
+                "description": "Establishing asparagus crowns or seeds",
+                "instructions": [
+                    "Start crowns in spring or sow seeds indoors 10-12 weeks before last frost",
+                    "Use well-drained, deeply cultivated soil",
+                    "Plant crowns in trenches 12-18 inches apart",
+                    "Maintain consistent moisture during establishment",
+                    "Be patient — harvests begin in year 2-3"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting crowns or young plants",
+                "instructions": [
+                    "Transplant crowns into permanent bed in early spring",
+                    "Space crowns 12-18 inches apart in trenches",
+                    "Backfill gradually and water thoroughly",
+                    "Mulch to conserve moisture and suppress weeds",
+                    "Avoid harvesting during the first season"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting asparagus spears",
+                "instructions": [
+                    "Harvest spears when 6-8 inches tall",
+                    "Cut or snap spears at soil level",
+                    "Harvest sparingly first 2 years to allow root establishment",
+                    "Stop harvesting once spears thin out to allow fern growth",
+                    "Store in refrigerator wrapped in a damp cloth"
+                ]
+            }
+        },
+        "artichokes": {
+            "sowed": {
+                "description": "Starting artichokes from seed or divisions",
+                "instructions": [
+                    "Start seeds indoors 8-10 weeks before last frost",
+                    "Use well-drained, fertile soil",
+                    "Transplant seedlings when 4-6 inches tall",
+                    "Space plants 3-4 feet apart in full sun",
+                    "Provide regular water and mulch to retain moisture"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting artichoke seedlings or divisions",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as in pots",
+                    "Space 3-4 feet apart to allow for growth",
+                    "Water in well and mulch around plants",
+                    "Fertilize monthly during growing season"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting artichoke buds",
+                "instructions": [
+                    "Harvest buds when they are tight and firm",
+                    "Cut with a few inches of stem attached",
+                    "Use sharp knife to avoid damaging plant",
+                    "Store in refrigerator wrapped in plastic",
+                    "Cook promptly for best flavor and texture"
+                ]
+            }
+        },
+        "beans": {
+            "sowed": {
+                "description": "Direct sowing bush or pole beans",
+                "instructions": [
+                    "Sow seeds 1-1.5 inches deep after last frost",
+                    "Space seeds 2-4 inches apart for bush, 4-6 inches for pole",
+                    "Provide trellis for pole varieties",
+                    "Keep soil consistently moist until germination",
+                    "Succession sow every 2-3 weeks for continuous harvest"
+                ]
+            },
+            "transplanted": {
+                "description": "Beans are usually direct sown",
+                "instructions": [
+                    "Avoid transplanting when possible due to root disturbance",
+                    "If transplanting, handle young seedlings gently",
+                    "Harden off before moving outdoors",
+                    "Plant at same depth as in pots",
+                    "Water well after transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Picking beans at optimum tenderness",
+                "instructions": [
+                    "Harvest snap beans when pods are firm and before seeds swell",
+                    "Pick regularly to promote continued production",
+                    "Use scissors or snap by hand to avoid plant damage",
+                    "Refrigerate immediately for best quality",
+                    "Blanch and freeze for long-term storage"
+                ]
+            }
+        },
+        "beets": {
+            "sowed": {
+                "description": "Direct sowing beet seeds",
+                "instructions": [
+                    "Sow seeds 1/2 inch deep in rows 12-18 inches apart",
+                    "Thin seedlings to 3-4 inches apart",
+                    "Keep soil evenly moist for steady growth",
+                    "Use light mulch to retain moisture and suppress weeds",
+                    "Fertilize moderately; avoid excess nitrogen"
+                ]
+            },
+            "transplanted": {
+                "description": "Beets are typically direct-sown",
+                "instructions": [
+                    "Transplant only if necessary; handle roots carefully",
+                    "Harden off seedlings before transplanting",
+                    "Space transplants 3-4 inches apart",
+                    "Water in well after setting",
+                    "Minimize root disturbance to avoid deformities"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting beet roots and greens",
+                "instructions": [
+                    "Harvest small roots at 1-2 inches diameter for best flavor",
+                    "Pull roots gently or loosen soil with fork",
+                    "Remove greens if storing roots long-term",
+                    "Store roots in cool, humid conditions",
+                    "Use greens promptly like other leafy vegetables"
+                ]
+            }
+        },
+        "broccoli": {
+            "sowed": {
+                "description": "Starting broccoli from seed",
+                "instructions": [
+                    "Start seeds indoors 6-8 weeks before transplant",
+                    "Keep soil temperature 60-70°F for germination",
+                    "Provide cool temperatures for sturdy seedlings",
+                    "Fertilize lightly before transplanting",
+                    "Harden off seedlings 7-10 days before planting out"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting broccoli to the garden",
+                "instructions": [
+                    "Transplant when seedlings have 4-6 true leaves",
+                    "Space plants 18-24 inches apart",
+                    "Plant slightly deeper than in pots",
+                    "Mulch and water to reduce transplant shock",
+                    "Fertilize with balanced feed mid-season"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting main heads and side shoots",
+                "instructions": [
+                    "Cut main head when florets are tight and before yellowing",
+                    "Use sharp knife cutting below head",
+                    "After main harvest, expect side shoots for continued harvest",
+                    "Harvest in cool morning for best quality",
+                    "Store in refrigerator wrapped in plastic"
+                ]
+            }
+        },
+        "brussels_sprouts": {
+            "sowed": {
+                "description": "Starting Brussels sprouts from seed",
+                "instructions": [
+                    "Start seeds indoors 6-8 weeks before transplant",
+                    "Keep seedlings cool for compact growth",
+                    "Provide plenty of light to avoid legginess",
+                    "Transplant in midsummer for fall/winter harvest",
+                    "Fertilize and water regularly for large sprouts"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting Brussels sprouts",
+                "instructions": [
+                    "Transplant when seedlings are sturdy with several leaves",
+                    "Space 24-36 inches apart",
+                    "Support tall plants to prevent lodging",
+                    "Mulch and water deeply after planting",
+                    "Pinch lower leaves if needed to direct energy"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting sprouts from the stalk",
+                "instructions": [
+                    "Pick sprouts from the bottom up when 1-2 inches across",
+                    "Harvest after a light frost for improved flavor",
+                    "Twist or cut sprouts from stalk carefully",
+                    "Store refrigerated in perforated bag",
+                    "Blanch and freeze if preserving long-term"
+                ]
+            }
+        },
+        "cabbage": {
+            "sowed": {
+                "description": "Starting cabbage from seed",
+                "instructions": [
+                    "Start seeds indoors 6-8 weeks before transplant",
+                    "Use cool temperatures for solid heads",
+                    "Provide even moisture and nutrients",
+                    "Harden off seedlings before transplanting",
+                    "Watch for pests like cabbage worms"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting cabbage seedlings",
+                "instructions": [
+                    "Transplant when seedlings have several true leaves",
+                    "Space plants 12-24 inches depending on variety",
+                    "Plant slightly deeper if stem is tall",
+                    "Mulch to conserve moisture and reduce weeds",
+                    "Fertilize side-dress as heads form"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting cabbage heads",
+                "instructions": [
+                    "Harvest when heads are firm and full-sized",
+                    "Cut heads at base with sharp knife",
+                    "Remove outer damaged leaves",
+                    "Store in cool, humid conditions",
+                    "Use promptly for best flavor and texture"
+                ]
+            }
+        },
+        "carrots": {
+            "sowed": {
+                "description": "Direct sowing carrot seeds",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in loose, stone-free soil",
+                    "Thin seedlings to 2-3 inches apart",
+                    "Keep soil consistently moist to prevent forked roots",
+                    "Use light mulch to conserve moisture",
+                    "Harvest based on root diameter preference"
+                ]
+            },
+            "transplanted": {
+                "description": "Carrots are usually direct-sown",
+                "instructions": [
+                    "Avoid transplanting to prevent root deformities",
+                    "If transplanting, disturb roots as little as possible",
+                    "Harden off before setting out",
+                    "Plant at same soil depth as in pots",
+                    "Water gently after transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mature carrots",
+                "instructions": [
+                    "Check size by brushing soil away from the crown",
+                    "Loosen soil around roots before pulling",
+                    "Pull gently to avoid breakage",
+                    "Trim tops to preserve root moisture",
+                    "Store in cool, humid environment"
+                ]
+            }
+        },
+        "cauliflower": {
+            "sowed": {
+                "description": "Starting cauliflower indoors",
+                "instructions": [
+                    "Start seeds 6-8 weeks before transplant",
+                    "Keep temperatures cool to prevent bolting",
+                    "Provide high fertility and even moisture",
+                    "Harden off seedlings before transplant",
+                    "Transplant when sturdy with several leaves"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting cauliflower to the bed",
+                "instructions": [
+                    "Space plants 18-24 inches apart",
+                    "Plant slightly deeper to encourage root stability",
+                    "Mulch and water to reduce stress",
+                    "Provide shade in hot climates to prevent yellowing",
+                    "Support with fertilizer as heads develop"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting the curd/head",
+                "instructions": [
+                    "Cut head when curd is compact and white",
+                    "Harvest before florets separate and discolor",
+                    "Use sharp knife to cut at base",
+                    "Store heads refrigerated wrapped in plastic",
+                    "Blanch and freeze if preserving longer-term"
+                ]
+            }
+        },
+        "celery": {
+            "sowed": {
+                "description": "Starting celery from seed",
+                "instructions": [
+                    "Start seeds indoors 10-12 weeks before last frost",
+                    "Provide consistent moisture and humidity",
+                    "Use rich, fertile soil and regular feeding",
+                    "Keep seedlings warm for germination (70°F)",
+                    "Harden off thoroughly before transplanting"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting celery into the garden",
+                "instructions": [
+                    "Transplant when seedlings are sturdy and weather is cool",
+                    "Space 8-12 inches apart",
+                    "Plant deeply to blanch stems if desired",
+                    "Keep evenly moist and mulch heavily",
+                    "Fertilize regularly to support long season"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting celery stalks",
+                "instructions": [
+                    "Harvest individual stalks from outside as needed",
+                    "Or cut entire plant at base when mature",
+                    "Store in refrigerator wrapped to retain crispness",
+                    "Keep humidity high to prevent wilting",
+                    "Use promptly for best texture"
+                ]
+            }
+        },
+        "chicory": {
+            "sowed": {
+                "description": "Direct sowing chicory seeds",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in well-drained soil",
+                    "Space seeds 6-12 inches apart depending on variety",
+                    "Keep soil consistently moist for germination",
+                    "Thin seedlings to recommended spacing",
+                    "Provide full sun to partial shade"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting chicory seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as they were in pots",
+                    "Space 6-12 inches apart depending on variety",
+                    "Water in well and mulch to retain moisture",
+                    "Provide partial shade if transplanting in hot weather"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting chicory leaves or roots",
+                "instructions": [
+                    "Harvest outer leaves as needed for salads",
+                    "For roots, dig up plants in fall after foliage dies back",
+                    "Wash roots thoroughly before use",
+                    "Store leaves refrigerated and roots in cool, dry place",
+                    "Use leaves promptly for best flavor"
+                ]
+            }  
+        }, 
+        "corn": {
+            "sowed": {
+                "description": "Direct sowing sweet or field corn",
+                "instructions": [
+                    "Sow seeds 1-2 inches deep after soil warms",
+                    "Plant in blocks for good pollination, not single rows",
+                    "Space seeds 8-12 inches apart",
+                    "Keep soil consistently moist during germination",
+                    "Fertilize with nitrogen as plants grow tall"
+                ]
+            },
+            "transplanted": {
+                "description": "Corn is generally direct-sown",
+                "instructions": [
+                    "Avoid transplanting unless very young due to root disturbance",
+                    "If transplanting, acclimate seedlings carefully",
+                    "Plant at same depth as in pots",
+                    "Ensure block planting for pollination",
+                    "Water well after transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting sweet corn at peak sweetness",
+                "instructions": [
+                    "Check silks — harvest about 20 days after silk emergence",
+                    "Kernels should be milky when punctured",
+                    "Twist and pull ear downward to harvest",
+                    "Cool quickly to preserve sugar",
+                    "Shuck and freeze or refrigerate promptly"
+                ]
+            }
+        },
+        "cucumber": {
+            "sowed": {
+                "description": "Starting cucumbers from seed",
+                "instructions": [
+                    "Sow seeds outdoors after last frost or start indoors 3-4 weeks early",
+                    "Plant seeds 1 inch deep",
+                    "Provide trellis for vining varieties",
+                    "Keep soil evenly moist to avoid bitterness",
+                    "Thin to recommended spacing for variety"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting cucumber seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as they were in pots",
+                    "Space 12-24 inches apart depending on habit",
+                    "Water in well and mulch to retain moisture",
+                    "Train vines onto support to reduce disease"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting cucumbers for best texture",
+                "instructions": [
+                    "Harvest when fruits reach recommended size for variety",
+                    "Pick regularly to encourage more fruiting",
+                    "Use sharp scissors or twist gently to avoid damage",
+                    "Store in cool, humid conditions",
+                    "Pick early morning for best flavor and crispness"
+                ]
+            }
+        },
+        "daikon": {
+            "sowed": {
+                "description": "Direct sowing daikon radish seeds",
+                "instructions": [
+                    "Sow seeds 1/2 inch deep in loose, well-drained soil",
+                    "Space seeds 4-6 inches apart",
+                    "Keep soil consistently moist for germination",
+                    "Thin seedlings to 6-8 inches apart",
+                    "Provide full sun to partial shade"
+                ]
+            },
+            "transplanted": {
+                "description": "Daikon radishes are typically direct-sown",
+                "instructions": [
+                    "Avoid transplanting to prevent root deformities",
+                    "If transplanting, handle roots carefully",
+                    "Harden off before setting out",
+                    "Plant at same soil depth as in pots",
+                    "Water gently after transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mature daikon radishes",
+                "instructions": [
+                    "Harvest when roots reach 8-20 inches long depending on variety",
+                    "Loosen soil around roots before pulling",
+                    "Pull gently to avoid breakage",
+                    "Trim tops to preserve root moisture",
+                    "Store in cool, humid environment"
+                ]
+            }
+        },
+        "eggplant": {
+            "sowed": {
+                "description": "Starting eggplant from seed indoors",
+                "instructions": [
+                    "Start seeds 8-10 weeks before last frost",
+                    "Provide warm germination (75-85°F)",
+                    "Keep seedlings under strong light to avoid legginess",
+                    "Harden off over 7-10 days before transplant",
+                    "Transplant when soil warms and night temps stay mild"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting eggplant to warm beds",
+                "instructions": [
+                    "Space plants 18-24 inches apart",
+                    "Plant at same depth as in containers",
+                    "Provide consistent moisture and fertility",
+                    "Stake if fruiting heavy varieties",
+                    "Mulch to keep soil warm and retain moisture"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting eggplants at ideal maturity",
+                "instructions": [
+                    "Pick when skin is glossy and firm but not hard",
+                    "Avoid overmature fruits which become bitter",
+                    "Cut fruit with short stem attached",
+                    "Store at cool room temperatures briefly",
+                    "Use soon after harvest for best texture"
+                ]
+            }
+        },
+        "escarole \"endive\"": {
+            "sowed": {
+                "description": "Starting escarole from seed",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in well-drained soil",
+                    "Space seeds 6-12 inches apart",
+                    "Keep soil consistently moist for germination",
+                    "Thin seedlings to recommended spacing",
+                    "Provide full sun to partial shade"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting escarole seedlings",
+                "instructions": [
+                    "Transplant when seedlings have several true leaves",
+                    "Space plants 12-18 inches apart",
+                    "Keep soil moist and fertile",
+                    "Protect from strong sun and wind",
+                    "Harden off before transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting escarole",
+                "instructions": [
+                    "Cut outer leaves as needed",
+                    "Harvest before plants bolt",
+                    "Store in cool, moist conditions",
+                    "Use fresh for best flavor",
+                    "Can be blanched for milder taste"
+                ]
+            }
+        },
+        "garlic": {
+            "sowed": {
+                "description": "Planting garlic cloves",
+                "instructions": [
+                    "Plant individual cloves in fall for best bulbs",
+                    "Place cloves 2 inches deep and 4-6 inches apart",
+                    "Choose a sunny, well-drained site",
+                    "Mulch heavily to protect over winter",
+                    "Ensure good air circulation to reduce rot"
+                ]
+            },
+            "transplanted": {
+                "description": "Garlic is typically planted as cloves",
+                "instructions": [
+                    "Avoid transplanting established garlic",
+                    "If moving, handle bulbs gently to avoid damage",
+                    "Plant cloves with pointed end up",
+                    "Water in after planting and mulch",
+                    "Remove mulch in spring if growth is slow"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mature garlic bulbs",
+                "instructions": [
+                    "Harvest when lower leaves brown but upper leaves green",
+                    "Lift bulbs carefully with fork to avoid bruising",
+                    "Cure bulbs in a dry, ventilated location for 2-4 weeks",
+                    "Trim roots and store in cool, dry place",
+                    "Use cured garlic for longest shelf life"
+                ]
+            }
+        },
+        "ginger root": {
+            "alias": ["ginger"],
+            "sowed": {
+                "description": "Starting ginger from rhizomes",
+                "instructions": [
+                    "Plant ginger rhizomes in spring after last frost",
+                    "Use well-drained, fertile soil in partial shade",
+                    "Bury rhizomes 2-4 inches deep with buds facing up",
+                    "Space pieces 8 inches apart",
+                    "Keep soil consistently moist but not waterlogged"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting ginger rhizomes",
+                "instructions": [
+                    "Handle rhizomes gently to avoid damage",
+                    "Plant in well-drained soil with buds facing up",
+                    "Space 8 inches apart",
+                    "Water thoroughly after transplanting",
+                    "Mulch to retain moisture and suppress weeds"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting ginger root",
+                "instructions": [
+                    "Harvest ginger 8-10 months after planting",
+                    "Dig up rhizomes carefully to avoid damage",
+                    "Use fresh or cure for longer storage",
+                    "Store in cool, dry place or refrigerate",
+                    "Use promptly for best flavor"
+                ]
+            }
+        },
+        "gourd": {
+            "sowed": {
+                "description": "Direct sowing gourd seeds",
+                "instructions": [
+                    "Sow seeds 1 inch deep after last frost",
+                    "Space seeds 18-24 inches apart",
+                    "Provide trellis or support for vining varieties",
+                    "Keep soil consistently moist during germination",
+                    "Fertilize with balanced feed as plants grow"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting gourd seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant in well-drained soil with full sun",
+                    "Space 18-24 inches apart",
+                    "Water thoroughly after transplanting",
+                    "Mulch to retain moisture and suppress weeds"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mature gourds",
+                "instructions": [
+                    "Harvest when gourds are fully colored and hard",
+                    "Cut from vine with sharp knife or pruners",
+                    "Cure in warm, dry place for several weeks",
+                    "Store in cool, dry location",
+                    "Use for decoration or crafts once fully dried"
+                ]
+            }
+        },
+        "kale": {
+            "sowed": {
+                "description": "Starting kale from seed",
+                "instructions": [
+                    "Sow directly or start indoors 4-6 weeks before transplant",
+                    "Plant seeds 1/4 inch deep",
+                    "Kale tolerates cool temperatures well",
+                    "Thin or space seedlings 12-18 inches apart",
+                    "Keep soil moist and fertile for steady growth"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting kale seedlings",
+                "instructions": [
+                    "Transplant when seedlings have several true leaves",
+                    "Space 12-18 inches apart",
+                    "Mulch to keep soil cool and moist",
+                    "Protect young plants from cabbage pests",
+                    "Harvest lower leaves to encourage new growth"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting kale leaves",
+                "instructions": [
+                    "Pick outer leaves from bottom upward as needed",
+                    "Younger leaves are more tender and mild",
+                    "Kale flavor improves after light frost",
+                    "Store leaves refrigerated in plastic bag",
+                    "Wash before use and remove tough stems"
+                ]
+            }
+        },
+        "greens": {
+            "sowed": {
+                "description": "Direct sowing leafy greens",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in well-drained soil",
+                    "Space seeds according to variety (usually 6-12 inches)",
+                    "Keep soil consistently moist for germination",
+                    "Thin seedlings to recommended spacing",
+                    "Provide full sun to partial shade"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting leafy green seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as they were in pots",
+                    "Space according to variety (6-12 inches)",
+                    "Water in well and mulch to retain moisture",
+                    "Protect from strong sun and wind if needed"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting leafy greens",
+                "instructions": [
+                    "Pick outer leaves as needed for continuous harvest",
+                    "Or cut entire plant at base when mature",
+                    "Store in cool, moist conditions",
+                    "Use fresh for best flavor and texture",
+                    "Wash thoroughly before use"
+                ]
+            }
+        },
+        "herbs": {
+            "sowed": {
+                "description": "Starting herbs from seed",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in well-drained soil",
+                    "Space seeds according to variety",
+                    "Keep soil consistently moist for germination",
+                    "Provide full sun to partial shade depending on herb",
+                    "Thin seedlings to recommended spacing"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting herb seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as they were in pots",
+                    "Space according to variety",
+                    "Water in well and mulch to retain moisture",
+                    "Provide appropriate light conditions for each herb"
+                ]
+            }
+        },
+        "horseradish": {
+            "sowed": {
+                "description": "Planting horseradish root cuttings",
+                "instructions": [
+                    "Plant root cuttings in early spring",
+                    "Bury cuttings 6-8 inches deep with buds facing up",
+                    "Space cuttings 18-24 inches apart",
+                    "Use well-drained, fertile soil",
+                    "Keep soil consistently moist"
+                ]
+            },
+            "transplanted": {
+                "description": "Horseradish is typically planted as root cuttings",
+                "instructions": [
+                    "Avoid transplanting established horseradish",
+                    "If moving, handle roots gently to avoid damage",
+                    "Plant cuttings with buds facing up",
+                    "Water in after planting and mulch",
+                    "Ensure good air circulation to reduce rot"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting horseradish roots",
+                "instructions": [
+                    "Harvest roots in late fall or early spring",
+                    "Dig up roots carefully to avoid damage",
+                    "Use fresh or cure for longer storage",
+                    "Store in cool, dry place or refrigerate",
+                    "Use promptly for best flavor"
+                ]
+            }
+        },
+        "leeks": {
+            "sowed": {
+                "description": "Starting leeks from seed",
+                "instructions": [
+                    "Start seeds indoors 8-10 weeks before transplant",
+                    "Keep seedlings in cool, bright conditions",
+                    "Transplant when pencil-thick for best results",
+                    "Harden off gradually before moving outside",
+                    "Prepare bed with deep, fertile soil"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting leeks and blanching stems",
+                "instructions": [
+                    "Plant deeply or trench and hill to blanch stems",
+                    "Space 6-9 inches apart",
+                    "Firm soil around transplants and water well",
+                    "Hill up soil as stems grow to maintain blanching",
+                    "Provide steady moisture for long-season crops"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting leeks for size and tenderness",
+                "instructions": [
+                    "Harvest when stems reach desired diameter",
+                    "Lift with fork to avoid breaking",
+                    "Trim roots and remove outer tough leaves",
+                    "Store upright in refrigerator or in cool, damp sand",
+                    "Use within a few weeks for best quality"
+                ]
+            }
+        },
+        "lettuce": {
+            "sowed": {
+                "description": "Direct sowing lettuce seeds",
+                "instructions": [
+                    "Plant seeds 1/8 inch deep",
+                    "Space seeds 1 inch apart or broadcast and thin",
+                    "Keep soil consistently moist",
+                    "Optimal soil temperature 60-65°F",
+                    "Thin seedlings to 6-12 inches apart"
+                ]
+            },
+            "transplanted": {
+                "description": "Moving lettuce seedlings",
+                "instructions": [
+                    "Transplant when seedlings have 3-4 true leaves",
+                    "Space plants 6-12 inches apart",
+                    "Water immediately after transplanting",
+                    "Provide partial shade if needed",
+                    "Protect from extreme weather and pests"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting lettuce leaves or heads",
+                "instructions": [
+                    "Harvest outer leaves as needed",
+                    "Cut whole heads at base when mature",
+                    "Harvest in morning for best quality",
+                    "Remove yellowed or damaged leaves",
+                    "Refrigerate immediately after harvest"
+                ]
+            }
+        },
+        "melons": {
+            "sowed": {
+                "description": "Starting melons from seed",
+                "instructions": [
+                    "Sow seeds indoors 4-6 weeks before last frost",
+                    "Keep soil warm (70-85°F) for germination",
+                    "Provide strong light to prevent legginess",
+                    "Harden off seedlings before transplanting",
+                    "Transplant when soil is warm and nights are mild"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting melon seedlings",
+                "instructions": [
+                    "Space plants 24-36 inches apart in well-drained soil",
+                    "Plant at same depth as in pots",
+                    "Provide consistent moisture and mulch",
+                    "Train vines to avoid overcrowding",
+                    "Fertilize lightly during fruit development"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting melons at peak ripeness",
+                "instructions": [
+                    "Check for sweet aroma and slight softness at blossom end",
+                    "Melons should slip easily from vine when ripe",
+                    "Cut fruit with short stem attached",
+                    "Store at room temperature for a few days or refrigerate",
+                    "Use promptly for best flavor and texture"
+                ]
+            }
+        },
+        "okra": {
+            "sowed": {
+                "description": "Direct sowing okra seeds",
+                "instructions": [
+                    "Sow seeds 1 inch deep after soil warms",
+                    "Space seeds 12-18 inches apart",
+                    "Soak seeds overnight to speed germination if desired",
+                    "Provide full sun and well-drained soil",
+                    "Thin to healthiest plants for best yields"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting okra seedlings",
+                "instructions": [
+                    "Transplant when soil is warm and seedlings sturdy",
+                    "Harden off before planting out",
+                    "Keep spacing 12-18 inches",
+                    "Water in well and mulch around plants",
+                    "Watch for pest damage and treat as needed"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting tender okra pods",
+                "instructions": [
+                    "Pick pods when 2-4 inches long for best tenderness",
+                    "Harvest frequently to encourage more pods",
+                    "Use gloves if plants have spines",
+                    "Store in cool conditions and use quickly",
+                    "Preserve by pickling or freezing if excess"
+                ]
+            }
+        },
+        "onions": {
+            "sowed": {
+                "description": "Starting onions from seed, sets, or transplants",
+                "instructions": [
+                    "Start seeds indoors or plant sets in early spring",
+                    "Use fertile, well-drained soil",
+                    "Keep rows weed-free to reduce competition",
+                    "Thin seedlings to proper spacing",
+                    "Provide steady moisture through bulb formation"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting onion seedlings or sets",
+                "instructions": [
+                    "Plant sets or transplants at soil level",
+                    "Space 4-6 inches apart depending on size desired",
+                    "Firm soil and water in after planting",
+                    "Mulch to suppress weeds and conserve moisture",
+                    "Avoid high nitrogen late in season to promote bulb maturity"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mature onion bulbs",
+                "instructions": [
+                    "Harvest when tops fall over and begin to dry",
+                    "Lift bulbs gently and cure in dry, ventilated area",
+                    "Trim tops and roots after curing",
+                    "Store in cool, dry, dark place",
+                    "Use promptly once sprouting or soft spots appear"
+                ]
+            }
+        },
+        "parsnips": {
+            "sowed": {
+                "description": "Direct sowing parsnip seeds",
+                "instructions": [
+                    "Sow seeds 1/2 inch deep in loose, stone-free soil",
+                    "Thin seedlings to 3-4 inches apart",
+                    "Keep soil consistently moist to prevent forked roots",
+                    "Use light mulch to conserve moisture",
+                    "Harvest based on root diameter preference"
+                ]
+            },
+            "transplanted": {
+                "description": "Parsnips are usually direct-sown",
+                "instructions": [
+                    "Avoid transplanting to prevent root deformities",
+                    "If transplanting, disturb roots as little as possible",
+                    "Harden off before setting out",
+                    "Plant at same soil depth as in pots",
+                    "Water gently after transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mature parsnips",
+                "instructions": [
+                    "Check size by brushing soil away from the crown",
+                    "Loosen soil around roots before pulling",
+                    "Pull gently to avoid breakage",
+                    "Trim tops to preserve root moisture",
+                    "Store in cool, humid environment"
+                ]
+            }
+        },
+        "peas": {
+            "sowed": {
+                "description": "Direct sowing peas in cool weather",
+                "instructions": [
+                    "Sow seeds 1-2 inches deep as soon as soil can be worked",
+                    "Provide trellis or support for vining varieties",
+                    "Space seeds 2 inches apart",
+                    "Keep soil evenly moist during germination",
+                    "Succession sow for extended harvest"
+                ]
+            },
+            "transplanted": {
+                "description": "Peas are usually direct-sown",
+                "instructions": [
+                    "Transplant only if necessary and very young",
+                    "Harden off before moving outdoors",
+                    "Plant at same depth and water in",
+                    "Provide supports for climbing varieties",
+                    "Avoid planting in hot weather which reduces yield"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting peas when pods are sweet",
+                "instructions": [
+                    "Pick peas when pods are plump but still tender",
+                    "Harvest frequently to encourage production",
+                    "Sweet peas are best used soon after picking",
+                    "Refrigerate in perforated bag to maintain freshness",
+                    "Shell and freeze for long-term storage"
+                ]
+            }
+        },
+        "peppers": {
+            "sowed": {
+                "description": "Starting peppers from seed indoors",
+                "instructions": [
+                    "Start seeds 8-10 weeks before last frost",
+                    "Keep germination warm (75-85°F)",
+                    "Provide strong light to prevent legginess",
+                    "Harden off seedlings before transplant",
+                    "Transplant when nights are reliably warm"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting pepper seedlings",
+                "instructions": [
+                    "Space plants 18-24 inches apart",
+                    "Plant at same depth as in pots",
+                    "Provide steady watering and mulch",
+                    "Stake if plants become top-heavy",
+                    "Fertilize lightly during fruit set"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting peppers for flavor and heat",
+                "instructions": [
+                    "Harvest when fruits reach mature color and size",
+                    "Cut peppers with a short stem attached",
+                    "Wear gloves when handling hot varieties",
+                    "Store refrigerated and use within a week",
+                    "Roast or freeze surplus for later use"
+                ]
+            }
+        },
+        "potatoes": {
+            "sowed": {
+                "description": "Planting seed potatoes",
+                "instructions": [
+                    "Cut large seed potatoes into pieces with eyes",
+                    "Cure cut pieces for a day before planting",
+                    "Plant 3-4 inches deep and 12-15 inches apart",
+                    "Use well-drained, loose soil",
+                    "Hill soil up around stems as they grow"
+                ]
+            },
+            "transplanted": {
+                "description": "Potatoes are planted from seed pieces rather than transplanted",
+                "instructions": [
+                    "Avoid transplanting — plant seed pieces directly",
+                    "Ensure seed pieces have healthy eyes",
+                    "Space and depth as recommended for variety",
+                    "Keep rows weed-free and soil hilled",
+                    "Practice crop rotation to prevent disease"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting new or mature potatoes",
+                "instructions": [
+                    "For new potatoes, harvest a few weeks after plants flower",
+                    "For storage potatoes, wait until foliage dies back",
+                    "Lift tubers carefully with fork to avoid bruising",
+                    "Cure in cool, dark place for a week before long storage",
+                    "Store in cool, humid, dark conditions"
+                ]
+            }
+        },
+        "pumpkin": {
+            "sowed": {
+                "description": "Direct sowing pumpkins or starting transplants",
+                "instructions": [
+                    "Sow seeds 1 inch deep in hills after soil warms",
+                    "Space hills 4-8 feet apart depending on variety",
+                    "Provide full sun and fertile soil",
+                    "Keep soil evenly moist during establishment",
+                    "Thin to 2-3 strongest plants per hill"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting pumpkin seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as in pots",
+                    "Space widely to allow vines to spread",
+                    "Water deeply after planting",
+                    "Mulch to reduce weeds and conserve moisture"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting pumpkins when fully mature",
+                "instructions": [
+                    "Harvest when rind is hard and color is mature",
+                    "Cut fruit from vine leaving a short stem",
+                    "Cure in warm, dry place for 1-2 weeks to harden skin",
+                    "Store in a cool, dry area out of direct moisture",
+                    "Handle carefully to avoid bruising for best storage"
+                ]
+            }
+        },
+        "radishes": {
+            "sowed": {
+                "description": "Direct sowing fast-maturing radish seeds",
+                "instructions": [
+                    "Sow seeds 1/2 inch deep in rows",
+                    "Thin to 1-2 inches apart depending on variety",
+                    "Succession sow every 1-2 weeks for continuous harvest",
+                    "Keep soil cool and evenly moist",
+                    "Harvest promptly to avoid woody roots"
+                ]
+            },
+            "transplanted": {
+                "description": "Radishes are best direct-sown",
+                "instructions": [
+                    "Transplant only very young seedlings if necessary",
+                    "Avoid root disturbance to prevent deformity",
+                    "Harden off before transplanting",
+                    "Plant at same depth as in trays",
+                    "Water immediately after transplanting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting crisp radishes",
+                "instructions": [
+                    "Pull when roots reach variety-recommended size",
+                    "Loosen soil if crowded before pulling",
+                    "Trim tops and store in refrigerator",
+                    "Use quickly for best crunch and flavor",
+                    "If roots get woody, sow smaller or faster-maturing varieties"
+                ]
+            }
+        },
+        "rhubarb": {
+            "sowed": {
+                "description": "Starting rhubarb from crowns",
+                "instructions": [
+                    "Plant crowns in early spring or fall",
+                    "Choose well-drained, fertile soil in full sun",
+                    "Plant crowns 2-3 inches deep and 3 feet apart",
+                    "Water thoroughly after planting",
+                    "Mulch to retain moisture and suppress weeds"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting rhubarb crowns",
+                "instructions": [
+                    "Handle crowns gently to avoid damaging buds",
+                    "Plant at same depth as previously grown",
+                    "Space 3 feet apart in well-drained soil",
+                    "Water in well and mulch around plants",
+                    "Avoid harvesting in first year to allow establishment"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting rhubarb stalks",
+                "instructions": [
+                    "Pull stalks from base rather than cutting",
+                    "Harvest in spring and early summer",
+                    "Leave at least 2/3 of plant intact for regrowth",
+                    "Avoid eating leaves as they are toxic",
+                    "Store stalks refrigerated and use promptly"
+                ]
+            }
+        },
+        "spinach": {
+            "sowed": {
+                "description": "Direct sowing or starting spinach indoors",
+                "instructions": [
+                    "Sow seeds 1/2 inch deep in cool weather",
+                    "Thin seedlings to 3-4 inches apart",
+                    "Provide consistent moisture for tender leaves",
+                    "Plant in partial shade in hot climates",
+                    "Succession sow for continuous harvest"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting spinach seedlings",
+                "instructions": [
+                    "Transplant when seedlings are sturdy",
+                    "Space 3-6 inches apart depending on variety",
+                    "Harden off to reduce transplant shock",
+                    "Keep soil cool and moist after transplant",
+                    "Harvest outer leaves to allow regrowth"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting spinach leaves",
+                "instructions": [
+                    "Pick young leaves for best texture and flavor",
+                    "Harvest outer leaves first to allow regrowth",
+                    "Use promptly or refrigerate in damp towel",
+                    "Avoid harvesting during heat to prevent bolting",
+                    "Blanch and freeze if preserving excess"
+                ]
+            }
+        },
+        "squash": {
+            "sowed": {
+                "description": "Direct sowing summer or winter squash",
+                "instructions": [
+                    "Sow seeds 1 inch deep after soil warms",
+                    "Plant in hills or spaced rows depending on variety",
+                    "Space summer squash 36 inches, winter larger",
+                    "Provide full sun and fertile soil",
+                    "Water at the base to reduce foliar disease"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting squash seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as containers",
+                    "Allow plenty of room for vines",
+                    "Mulch to conserve moisture and suppress weeds",
+                    "Monitor for squash vine borers and pests"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting summer and winter squash",
+                "instructions": [
+                    "Harvest summer squash young and tender",
+                    "For winter squash, wait until rind hardens and color develops",
+                    "Cut fruit from vine leaving a short stem",
+                    "Cure winter squash in warm, dry place to extend storage",
+                    "Store winter varieties in cool, dry conditions"
+                ]
+            }
+        },
+        "sweet_corn": {
+            "sowed": {
+                "description": "Direct sowing sweet corn seeds",
+                "instructions": [
+                    "Sow seeds 1-2 inches deep in blocks for better pollination",
+                    "Space seeds 8-12 inches apart in rows 30-36 inches apart",
+                    "Plant after soil temperature reaches 60°F",
+                    "Keep soil consistently moist during germination",
+                    "Fertilize with nitrogen-rich feed as plants grow"
+                ]
+            },
+            "transplanted": {
+                "description": "Sweet corn is usually direct-sown",
+                "instructions": [
+                    "Transplant only if necessary and very young",
+                    "Harden off before moving outdoors",
+                    "Plant at same depth and water in",
+                    "Ensure block planting for good pollination",
+                    "Avoid disturbing roots to prevent stunting"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting sweet corn at peak sweetness",
+                "instructions": [
+                    "Check ears for full kernels and milky juice",
+                    "Harvest in the morning for best flavor",
+                    "Pull down and twist to remove ears from stalk",
+                    "Use promptly or refrigerate to retain sweetness",
+                    "Cook soon after harvest for best taste"
+                ]
+            }
+        },
+        "sweet_potatoes": {
+            "sowed": {
+                "description": "Starting sweet potatoes from slips",
+                "instructions": [
+                    "Start slips from healthy tubers indoors 4-6 weeks before planting",
+                    "Provide warm, well-lit conditions for slips",
+                    "Prepare loose, well-drained soil in full sun",
+                    "Sweet potatoes need a long, warm growing season",
+                    "Plant slips after soil warms and danger of frost has passed"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting slips to the garden",
+                "instructions": [
+                    "Plant slips 12-18 inches apart in rows 3-4 feet apart",
+                    "Set slips deep enough to cover several nodes",
+                    "Water in well and mulch to retain moisture",
+                    "Avoid nitrogen-heavy fertilizers which promote vines over roots",
+                    "Hill soil slightly to encourage tuber formation"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting sweet potatoes",
+                "instructions": [
+                    "Harvest before first frost when vines yellow",
+                    "Dig tubers carefully to avoid bruising",
+                    "Cure in warm, humid place for 7-10 days to improve sweetness",
+                    "Store in cool, dry place but not refrigerator",
+                    "Handle gently to maximize storage life"
+                ]
+            }
+        },
+        "tomatoes": {
+            "sowed": {
+                "description": "Starting tomatoes from seed indoors",
+                "instructions": [
+                    "Plant seeds 1/4 inch deep in seed starting mix",
+                    "Keep soil temperature 70-75°F for best germination",
+                    "Provide 14-16 hours of light daily",
+                    "Keep seedlings well ventilated to avoid damping off",
+                    "Start seeds 6-8 weeks before last frost for most regions"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting tomato seedlings to garden",
+                "instructions": [
+                    "Harden off seedlings for 7-10 days before transplant",
+                    "Plant deeply, burying part of stem to encourage roots",
+                    "Space determinate 18-24 in, indeterminate 24-36 in",
+                    "Use cages or stakes to support plants",
+                    "Mulch and water regularly to reduce blossom end rot"
+                ]
+            },
+            "harvested": {
+                "description": "Picking ripe tomatoes",
+                "instructions": [
+                    "Harvest when fruits are fully colored and slightly firm",
+                    "Pick by cutting stem or gently twisting",
+                    "Check plants every 1-2 days during peak season",
+                    "Store at room temperature for best flavor if not fully ripe",
+                    "Preserve excess by canning, drying, or freezing"
+                ]
+            }
+        },
+        "turnips": {
+            "sowed": {
+                "description": "Direct sowing turnip seeds",
+                "instructions": [
+                    "Sow seeds 1/2 inch deep in rows",
+                    "Thin to 3-6 inches apart depending on variety",
+                    "Keep soil consistently moist for fast growth",
+                    "Plant in spring or late summer for fall harvest",
+                    "Use light mulch to conserve moisture and reduce weeds"
+                ]
+            },
+            "transplanted": {
+                "description": "Turnips are usually direct-sown",
+                "instructions": [
+                    "Transplant only if necessary and very young",
+                    "Avoid root disturbance to prevent deformities",
+                    "Set at same depth as in seed tray",
+                    "Water well after transplanting",
+                    "Space according to final desired size"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting turnips for roots and greens",
+                "instructions": [
+                    "Harvest roots at preferred size (2-4 inches common)",
+                    "Pull gently or lift with fork to avoid damage",
+                    "Use greens like other leafy vegetables",
+                    "Store roots in cool, humid environment",
+                    "Cook or store promptly for best flavor"
+                ]
+            }
+        },
+        "watermelon": {
+            "sowed": {
+                "description": "Direct sowing or starting watermelon transplants",
+                "instructions": [
+                    "Plant seeds or transplants after soil is warm",
+                    "Space vines widely (6-12 feet depending on variety)",
+                    "Provide full sun and rich soil",
+                    "Mulch to conserve moisture and warm soil",
+                    "Ensure good pollination for fruit set"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting watermelon seedlings",
+                "instructions": [
+                    "Harden off and transplant when nights are warm",
+                    "Plant at same depth as in containers",
+                    "Provide plenty of space for vine growth",
+                    "Water deeply and mulch around plants",
+                    "Protect young plants from pests and birds"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting watermelons at peak ripeness",
+                "instructions": [
+                    "Check for dull skin, hollow sound, and yellow underside",
+                    "Cut fruit from vine with sharp knife",
+                    "Handle carefully to avoid bruising",
+                    "Store at cool room temperature or refrigerate",
+                    "Eat soon after cutting for best flavor"
+                ]
+            }
+        },
+        "watercress": {
+            "sowed": {
+                "description": "Starting watercress from seed or cuttings",
+                "instructions": [
+                    "Sow seeds on moist soil or in shallow water",
+                    "Provide cool, flowing water or consistently moist soil",
+                    "Keep in partial shade to prevent bolting",
+                    "Thin seedlings to 6-8 inches apart",
+                    "Harvest leaves regularly to encourage new growth"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting watercress seedlings",
+                "instructions": [
+                    "Transplant to moist soil or shallow water",
+                    "Space plants 6-8 inches apart",
+                    "Keep soil consistently moist",
+                    "Provide partial shade in hot weather",
+                    "Monitor for pests like aphids and treat as needed"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting watercress leaves",
+                "instructions": [
+                    "Snip outer leaves regularly to promote growth",
+                    "Avoid harvesting more than one-third of the plant at once",
+                    "Rinse thoroughly before use",
+                    "Use fresh for best flavor and texture",
+                    "Store in refrigerator wrapped in damp paper towel"
+                ]
+            }
+        },
+        "zucchini": {
+            "sowed": {
+                "description": "Direct sowing or starting zucchini transplants",
+                "instructions": [
+                    "Sow seeds 1 inch deep after danger of frost",
+                    "Space plants 24-36 inches apart",
+                    "Provide full sun and fertile soil",
+                    "Keep evenly moist to prevent blossom end rot",
+                    "Harvest young fruits regularly for best yields"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting zucchini seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth and water in well",
+                    "Allow room for bush or vining habits",
+                    "Mulch to retain moisture and suppress weeds",
+                    "Monitor for squash bugs and powdery mildew"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting zucchini while tender",
+                "instructions": [
+                    "Pick zucchini when 6-8 inches long for best texture",
+                    "Harvest frequently to encourage production",
+                    "Use sharp knife or snip to avoid plant damage",
+                    "Refrigerate in plastic bag to maintain freshness",
+                    "Grate or freeze excess for later use"
+                ]
+            }
+        },
+        "basil": {
+            "sowed": {
+                "description": "Starting basil from seed indoors or direct sowing",
+                "instructions": [
+                    "Start seeds indoors 6-8 weeks before last frost or sow outdoors after frost",
+                    "Provide warm temperatures and plenty of light",
+                    "Plant seeds shallowly and keep soil moist",
+                    "Thin to 6-12 inches depending on variety",
+                    "Pinch tips to promote bushy growth"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting basil seedlings",
+                "instructions": [
+                    "Harden off seedlings before transplanting",
+                    "Plant at same depth as in pots",
+                    "Space 8-12 inches apart",
+                    "Water regularly but avoid waterlogging",
+                    "Pinch flowers to extend leaf production"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting basil leaves for fresh use",
+                "instructions": [
+                    "Harvest leaves regularly by pinching above leaf nodes",
+                    "Avoid harvesting more than one-third of plant at once",
+                    "Harvest in morning for peak essential oils",
+                    "Use fresh or preserve by drying or freezing in oil",
+                    "Protect from frost and store briefly in fridge"
+                ]
+            }
+        },
+        "chives": {
+            "sowed": {
+                "description": "Starting chives from seed or divisions",
+                "instructions": [
+                    "Sow seeds shallowly in spring or divide clumps",
+                    "Provide full sun to partial shade",
+                    "Keep soil moist during establishment",
+                    "Thin to 6-12 inches apart",
+                    "Allow to flower for attractive blooms and seeds"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting chive divisions",
+                "instructions": [
+                    "Divide mature clumps in spring or fall",
+                    "Plant divisions at same depth as original",
+                    "Space clumps 6-12 inches apart",
+                    "Water in and mulch lightly",
+                    "Chives are hardy and return each year"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting chive leaves and flowers",
+                "instructions": [
+                    "Snip leaves near base as needed",
+                    "Do not remove more than one-third at a time",
+                    "Use flowers as edible garnish",
+                    "Refrigerate leftover leaves in damp towel",
+                    "Divide clumps every few years to maintain vigor"
+                ]
+            }
+        },
+        "cilantro": {
+            "sowed": {
+                "description": "Direct sowing cilantro (coriander) seeds",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in cool weather",
+                    "Space seeds 4-6 inches apart or broadcast and thin",
+                    "Keep soil moist for steady germination",
+                    "Succession sow to avoid bolting",
+                    "Provide partial shade in hot climates"
+                ]
+            },
+            "transplanted": {
+                "description": "Cilantro is usually direct-sown",
+                "instructions": [
+                    "Transplant only young seedlings carefully",
+                    "Harden off before transplanting",
+                    "Plant at same depth and water in",
+                    "Provide cool conditions to avoid bolting",
+                    "Use fast-growing varieties for cut-and-come-again harvests"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting cilantro leaves and seeds",
+                "instructions": [
+                    "Harvest leaves by cutting outer stems near base",
+                    "Use leaves fresh for best flavor",
+                    "Allow plants to flower and set seed for coriander",
+                    "Dry seeds for storage and use as spice",
+                    "Succession sow to keep continuous supply"
+                ]
+            }
+        },
+        "dill": {
+            "sowed": {
+                "description": "Direct sowing dill seeds",
+                "instructions": [
+                    "Sow seeds 1/4 inch deep in full sun",
+                    "Thin to 12-18 inches for large plants",
+                    "Dill prefers well-drained soil",
+                    "Succession sow for continued harvest",
+                    "Support tall varieties if in windy sites"
+                ]
+            },
+            "transplanted": {
+                "description": "Dill is usually direct-sown",
+                "instructions": [
+                    "Transplant only with care to avoid root disturbance",
+                    "Harden off before planting out",
+                    "Space plants as needed for airflow",
+                    "Avoid heavy fertilization that reduces flavor",
+                    "Grow near cucumbers and other compatible crops"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting dill leaves and seeds",
+                "instructions": [
+                    "Harvest leaves before flowering for best flavor",
+                    "Cut seed heads when seeds turn brown for coriander-like flavor",
+                    "Dry or freeze leaves for long-term storage",
+                    "Use fresh leaves sparingly to avoid overpowering dishes",
+                    "Collect seeds for planting or culinary use"
+                ]
+            }
+        },
+        "mint": {
+            "sowed": {
+                "description": "Starting mint from seed or divisions",
+                "instructions": [
+                    "Mint spreads vigorously; consider container planting",
+                    "Sow seeds shallowly or divide established clumps",
+                    "Provide partial shade to full sun",
+                    "Keep soil moist and well-drained",
+                    "Pinch back to encourage bushy growth"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting mint divisions",
+                "instructions": [
+                    "Transplant divisions in spring or fall",
+                    "Space 12-18 inches apart if in-ground",
+                    "Contain roots if aggressive spreading is a concern",
+                    "Water in after planting",
+                    "Harvest leaves frequently to keep plants tidy"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting mint leaves for fresh use",
+                "instructions": [
+                    "Pick leaves from the top to encourage new growth",
+                    "Use fresh leaves for best flavor",
+                    "Dry or freeze excess leaves for storage",
+                    "Trim flowering stems to divert energy to leaves",
+                    "Store harvested leaves wrapped in damp towel briefly"
+                ]
+            }
+        },
+        "oregano": {
+            "sowed": {
+                "description": "Starting oregano from seed or cuttings",
+                "instructions": [
+                    "Sow seeds shallowly or root cuttings for faster results",
+                    "Provide full sun and well-drained soil",
+                    "Thin seedlings to 8-12 inches apart",
+                    "Avoid overwatering which reduces essential oils",
+                    "Pinch to encourage bushy habit"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting oregano",
+                "instructions": [
+                    "Harden off and transplant at same depth",
+                    "Space plants 8-12 inches apart",
+                    "Provide good drainage and full sun",
+                    "Avoid excessive nitrogen fertilizer",
+                    "Prune after flowering to maintain shape"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting oregano leaves and stems",
+                "instructions": [
+                    "Harvest stems before flowering for best flavor",
+                    "Dry stems in small bunches for storage",
+                    "Strip leaves after drying and store in airtight jars",
+                    "Use fresh leaves sparingly to taste",
+                    "Propagate by cuttings to expand herb bed"
+                ]
+            }
+        },
+        "parsley": {
+            "sowed": {
+                "description": "Starting parsley from seed or transplants",
+                "instructions": [
+                    "Parsley germinates slowly; soak seeds overnight",
+                    "Start seeds indoors 8-10 weeks before last frost",
+                    "Provide even moisture and partial shade",
+                    "Thin or space plants 6-12 inches apart",
+                    "Transplants help achieve earlier harvest"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting parsley seedlings",
+                "instructions": [
+                    "Harden off seedlings and transplant when large enough",
+                    "Plant at same depth as in pots",
+                    "Space 6-12 inches apart",
+                    "Keep soil moist during establishment",
+                    "Cut outer stems to promote new growth"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting parsley leaves",
+                "instructions": [
+                    "Cut outer stems near base to encourage regrowth",
+                    "Use fresh for best flavor or chop and freeze",
+                    "Drying reduces flavor — freezing preserves it better",
+                    "Divide clumps every few years for vigor",
+                    "Store in refrigerator wrapped in damp paper towel"
+                ]
+            }
+        },
+        "rosemary": {
+            "sowed": {
+                "description": "Starting rosemary from cuttings or seed",
+                "instructions": [
+                    "Seeds are slow; cuttings are faster and more reliable",
+                    "Provide warm, bright conditions and good drainage",
+                    "Plant in gritty, well-drained mix",
+                    "Avoid overwatering which causes root rot",
+                    "Slow-growing — be patient with establishment"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting rosemary plants",
+                "instructions": [
+                    "Harden off cuttings before planting outside",
+                    "Plant in full sun with excellent drainage",
+                    "Space 2-4 feet apart depending on variety",
+                    "Avoid heavy soils; amend with grit if needed",
+                    "Water sparingly once established"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting rosemary sprigs",
+                "instructions": [
+                    "Cut new growth as needed, taking no more than one-third",
+                    "Use fresh or dry for longer storage",
+                    "Store cut sprigs in refrigerator briefly",
+                    "Prune to maintain shape and encourage bushiness",
+                    "Protect from severe winter cold in colder zones"
+                ]
+            }
+        },
+        "sage": {
+            "sowed": {
+                "description": "Starting sage from seed or cuttings",
+                "instructions": [
+                    "Seeds are slow; cuttings root quickly",
+                    "Provide full sun and well-drained soil",
+                    "Thin seedlings to 12-18 inches apart",
+                    "Avoid overwatering to keep leaves flavorful",
+                    "Harvest selectively to maintain plant vigor"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting sage",
+                "instructions": [
+                    "Harden off before moving outside",
+                    "Plant at same depth and water in",
+                    "Space 18-24 inches apart",
+                    "Provide good drainage and full sun",
+                    "Prune lightly after flowering to keep plants tidy"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting sage leaves",
+                "instructions": [
+                    "Harvest leaves before flowering for best flavor",
+                    "Dry leaves quickly to preserve oils",
+                    "Store dried leaves in airtight containers",
+                    "Avoid removing more than one-third of plant",
+                    "Use sparingly; sage is potent in cooking"
+                ]
+            }
+        },
+        "thyme": {
+            "sowed": {
+                "description": "Starting thyme from seed or cuttings",
+                "instructions": [
+                    "Thyme prefers light, gritty soil and full sun",
+                    "Sow seeds shallowly or take cuttings for faster results",
+                    "Keep soil on the drier side to avoid rot",
+                    "Thin or space plants 12-18 inches apart",
+                    "Pinch tips regularly to encourage bushiness"
+                ]
+            },
+            "transplanted": {
+                "description": "Transplanting thyme",
+                "instructions": [
+                    "Harden off and plant in well-drained soil",
+                    "Space plants 12-18 inches apart",
+                    "Avoid heavy fertilization which reduces flavor",
+                    "Water sparingly once established",
+                    "Prune after flowering to maintain shape"
+                ]
+            },
+            "harvested": {
+                "description": "Harvesting thyme sprigs",
+                "instructions": [
+                    "Harvest sprigs as needed, cutting above woody growth",
+                    "Dry or freeze for long-term storage",
+                    "Store dried leaves in airtight containers",
+                    "Use fresh leaves within a few days refrigerated",
+                    "Divide plants every few years to maintain vigor"
+                ]
+            }
+        }
+    }
+}

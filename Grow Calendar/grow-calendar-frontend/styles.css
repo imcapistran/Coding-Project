@@ -6,11 +6,20 @@ body {
     text-align: center;
 }
 
-#zipResults {
-    background-color: rgb(255, 230, 0);
-    margin: 20px auto;
-    padding: 20px;
-    overflow-x: auto;
-    display: inline-flex;
-    border-radius: 2rem;
+div {
+    background-color: yellow;
+}
+
+#parentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#weatherResults, #calendarResults {
+    width: 45%;
+    margin: 0 10px;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 350px;
 }

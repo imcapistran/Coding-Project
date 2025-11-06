@@ -10,9 +10,13 @@
 <body>
     <h1>GROW CALENDAR</h1>
     <form id="zipForm" onsubmit="event.preventDefault(); handleZipSearch();">
-        <input type="text" maxlength="50" value="" id="placesSearch" name="placesSearch" placeholder="Enter your ZIP Code or City">
+        <input type="text" maxlength="50" value="" id="placesSearch" name="placesSearch" placeholder="Enter your ZIP Code">
         <button type="submit" id="searchBtn">Search</button>
     </form>
-    <div id="zipResults"></div>
+    <div id="parentDiv">
+        <div id="weatherResults"></div>
+        <div id="calendarResults"></div>
+    </div>
+    
 </body>
 </html>
