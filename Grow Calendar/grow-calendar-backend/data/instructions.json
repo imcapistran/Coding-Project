@@ -1,6 +1,45 @@
 {
     "crops": {
         "asparagus": {
+            "characteristics": {
+                "daysToMaturity": 730,
+                "maturityNotes": "2-3 years before first full harvest",
+                "frostTolerant": true,
+                "perennial": true,
+                "droughtTolerant": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 50,
+                    "max": 85
+                },
+                "companions": [
+                    "tomatoes",
+                    "basil",
+                    "parsley"
+                ],
+                "family": "asparagaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        4,
+                        5,
+                        6
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Establishing asparagus crowns or seeds",
                 "instructions": [
@@ -33,6 +72,54 @@
             }
         },
         "artichokes": {
+            "characteristics": {
+                "daysToMaturity": 180,
+                "maturityNotes": "6 months from transplant to first harvest",
+                "frostTolerant": true,
+                "perennial": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 50,
+                    "max": 75
+                },
+                "companions": [
+                    "brassicas",
+                    "peas",
+                    "sunflowers"
+                ],
+                "family": "asteraceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "fall": [
+                        10
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting artichokes from seed or divisions",
                 "instructions": [
@@ -65,6 +152,58 @@
             }
         },
         "beans": {
+            "characteristics": {
+                "daysToMaturity": {
+                    "bush": 50,
+                    "pole": 65
+                },
+                "maturityNotes": "50-65 days depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 60,
+                    "max": 85
+                },
+                "companions": [
+                    "corn",
+                    "potatoes",
+                    "carrots",
+                    "cucumbers"
+                ],
+                "family": "fabaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing bush or pole beans",
                 "instructions": [
@@ -97,6 +236,62 @@
             }
         },
         "beets": {
+            "characteristics": {
+                "daysToMaturity": 55,
+                "maturityNotes": "50-70 days depending on variety and use (greens vs roots)",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "partialShadeOk": true,
+                "soilTemp": {
+                    "min": 50,
+                    "max": 85
+                },
+                "companions": [
+                    "onions",
+                    "lettuce",
+                    "cabbage",
+                    "garlic"
+                ],
+                "family": "amaranthaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "summer": [
+                        7
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "summer": [
+                        8
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing beet seeds",
                 "instructions": [
@@ -129,6 +324,57 @@
             }
         },
         "broccoli": {
+            "characteristics": {
+                "daysToMaturity": 60,
+                "maturityNotes": "60-70 days from transplant",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "onions",
+                    "herbs",
+                    "potatoes",
+                    "celery"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ],
+                    "fall": [
+                        7,
+                        8
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting broccoli from seed",
                 "instructions": [
@@ -161,6 +407,56 @@
             }
         },
         "brussels_sprouts": {
+            "characteristics": {
+                "daysToMaturity": 100,
+                "maturityNotes": "90-180 days from transplant; flavor improves after frost",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "dill",
+                    "mint",
+                    "onions",
+                    "potatoes"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        7,
+                        8
+                    ]
+                },
+                "harvesting": {
+                    "fall": [
+                        10,
+                        11
+                    ],
+                    "winter": [
+                        12
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting Brussels sprouts from seed",
                 "instructions": [
@@ -193,6 +489,56 @@
             }
         },
         "cabbage": {
+            "characteristics": {
+                "daysToMaturity": 70,
+                "maturityNotes": "60-100 days from transplant depending on variety",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "herbs",
+                    "celery",
+                    "onions",
+                    "potatoes"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        6,
+                        7
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting cabbage from seed",
                 "instructions": [
@@ -225,6 +571,61 @@
             }
         },
         "carrots": {
+            "characteristics": {
+                "daysToMaturity": 70,
+                "maturityNotes": "70-80 days; can be harvested earlier for baby carrots",
+                "frostTolerant": true,
+                "heatSensitive": false,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "partialShadeOk": true,
+                "soilTemp": {
+                    "min": 45,
+                    "max": 85
+                },
+                "companions": [
+                    "onions",
+                    "leeks",
+                    "rosemary",
+                    "sage"
+                ],
+                "family": "apiaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        7
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true
+                },
+                "harvesting": {
+                    "spring": [
+                        6,
+                        7
+                    ],
+                    "summer": [
+                        8
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ],
+                    "winter": [
+                        12
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing carrot seeds",
                 "instructions": [
@@ -257,6 +658,55 @@
             }
         },
         "cauliflower": {
+            "characteristics": {
+                "daysToMaturity": 65,
+                "maturityNotes": "65-80 days from transplant",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "celery",
+                    "herbs",
+                    "onions"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting cauliflower indoors",
                 "instructions": [
@@ -289,6 +739,56 @@
             }
         },
         "celery": {
+            "characteristics": {
+                "daysToMaturity": 120,
+                "maturityNotes": "110-130 days from transplant; requires long growing season",
+                "frostSensitive": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "partialShadeOk": true,
+                "soilTemp": {
+                    "min": 60,
+                    "max": 70
+                },
+                "companions": [
+                    "brassicas",
+                    "leeks",
+                    "tomatoes",
+                    "bush beans"
+                ],
+                "family": "apiaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        7
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting celery from seed",
                 "instructions": [
@@ -321,6 +821,60 @@
             }
         },
         "chicory": {
+            "characteristics": {
+                "daysToMaturity": 85,
+                "maturityNotes": "85-100 days; can force roots in winter",
+                "frostTolerant": true,
+                "heatTolerant": true,
+                "droughtTolerant": true,
+                "sunRequirement": "full-sun",
+                "partialShadeOk": true,
+                "soilTemp": {
+                    "min": 45,
+                    "max": 85
+                },
+                "companions": [
+                    "lettuce",
+                    "spinach",
+                    "root vegetables"
+                ],
+                "family": "asteraceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        7,
+                        8
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ],
+                    "winter": [
+                        11,
+                        12
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing chicory seeds",
                 "instructions": [
@@ -350,9 +904,60 @@
                     "Store leaves refrigerated and roots in cool, dry place",
                     "Use leaves promptly for best flavor"
                 ]
-            }  
-        }, 
+            }
+        },
         "corn": {
+            "characteristics": {
+                "daysToMaturity": 75,
+                "maturityNotes": "60-100 days depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 60,
+                    "max": 95
+                },
+                "companions": [
+                    "beans",
+                    "squash",
+                    "cucumbers",
+                    "melons"
+                ],
+                "family": "poaceae",
+                "notes": "Plant in blocks for better pollination"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true,
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "fall": [
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing sweet or field corn",
                 "instructions": [
@@ -385,6 +990,57 @@
             }
         },
         "cucumber": {
+            "characteristics": {
+                "daysToMaturity": 55,
+                "maturityNotes": "50-70 days depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 60,
+                    "max": 95
+                },
+                "companions": [
+                    "beans",
+                    "corn",
+                    "peas",
+                    "radishes"
+                ],
+                "family": "cucurbitaceae",
+                "notes": "Regular harvesting encourages production"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6,
+                        7
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting cucumbers from seed",
                 "instructions": [
@@ -417,6 +1073,50 @@
             }
         },
         "daikon": {
+            "characteristics": {
+                "daysToMaturity": 50,
+                "maturityNotes": "45-60 days depending on desired size",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "partialShadeOk": true,
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "carrots",
+                    "beets",
+                    "parsnips"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing daikon radish seeds",
                 "instructions": [
@@ -449,6 +1149,52 @@
             }
         },
         "eggplant": {
+            "characteristics": {
+                "daysToMaturity": 70,
+                "maturityNotes": "65-80 days from transplant",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtModerate": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 70,
+                    "max": 85
+                },
+                "companions": [
+                    "beans",
+                    "peppers",
+                    "marigolds",
+                    "thyme"
+                ],
+                "family": "solanaceae",
+                "notes": "Needs warm soil and air temperatures"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "fall": [
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting eggplant from seed indoors",
                 "instructions": [
@@ -480,7 +1226,64 @@
                 ]
             }
         },
-        "escarole \"endive\"": {
+        "escarole & endive": {
+            "characteristics": {
+                "daysToMaturity": 90,
+                "maturityNotes": "85-95 days from seed, 45-50 from transplant",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtSensitive": true,
+                "sunRequirement": "full-sun",
+                "partialShadeOk": true,
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "lettuce",
+                    "carrots",
+                    "onions"
+                ],
+                "family": "asteraceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "summer": [
+                        7
+                    ],
+                    "fall": [
+                        8
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "summer": [
+                        7
+                    ],
+                    "fall": [
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting escarole from seed",
                 "instructions": [
@@ -513,6 +1316,45 @@
             }
         },
         "garlic": {
+            "characteristics": {
+                "daysToMaturity": 240,
+                "maturityNotes": "8-9 months; plant in fall for summer harvest",
+                "frostTolerant": true,
+                "heatModerate": true,
+                "droughtModerate": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 85
+                },
+                "companions": [
+                    "beets",
+                    "carrots",
+                    "cucumbers",
+                    "tomatoes"
+                ],
+                "family": "amaryllidaceae",
+                "notes": "Fall planting produces larger bulbs"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "fall": [
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true
+                },
+                "harvesting": {
+                    "summer": [
+                        6,
+                        7,
+                        8
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Planting garlic cloves",
                 "instructions": [
@@ -545,7 +1387,51 @@
             }
         },
         "ginger root": {
-            "alias": ["ginger"],
+            "alias": [
+                "ginger"
+            ],
+            "characteristics": {
+                "daysToMaturity": 300,
+                "maturityNotes": "8-10 months for full maturity",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtSensitive": true,
+                "sunRequirement": "partial-shade",
+                "soilTemp": {
+                    "min": 65,
+                    "max": 75
+                },
+                "companions": [
+                    "turmeric",
+                    "basil",
+                    "peppers"
+                ],
+                "family": "zingiberaceae",
+                "notes": "Prefers humid, warm conditions"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "harvesting": {
+                    "fall": [
+                        10,
+                        11
+                    ],
+                    "winter": [
+                        12
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting ginger from rhizomes",
                 "instructions": [
@@ -578,6 +1464,50 @@
             }
         },
         "gourd": {
+            "characteristics": {
+                "daysToMaturity": 100,
+                "maturityNotes": "95-120 days depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtModerate": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 70,
+                    "max": 85
+                },
+                "companions": [
+                    "corn",
+                    "beans",
+                    "radishes"
+                ],
+                "family": "cucurbitaceae",
+                "notes": "Needs long growing season for mature fruits"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing gourd seeds",
                 "instructions": [
@@ -610,6 +1540,55 @@
             }
         },
         "kale": {
+            "characteristics": {
+                "daysToMaturity": 55,
+                "maturityNotes": "45-75 days; cut-and-come-again for leaves",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "beets",
+                    "onions",
+                    "herbs"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "fall": [
+                        10,
+                        11
+                    ],
+                    "winter": [
+                        12,
+                        1
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting kale from seed",
                 "instructions": [
@@ -642,6 +1621,53 @@
             }
         },
         "greens": {
+            "characteristics": {
+                "daysToMaturity": 30,
+                "maturityNotes": "Fast-growing cut-and-come-again; varies by species",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "partial-shade",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "herbs",
+                    "root vegetables"
+                ],
+                "family": "various"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing leafy greens",
                 "instructions": [
@@ -674,6 +1700,50 @@
             }
         },
         "herbs": {
+            "characteristics": {
+                "daysToMaturity": 60,
+                "maturityNotes": "Varies widely; many herbs are multi-harvest plants",
+                "frostSensitive": false,
+                "heatTolerant": true,
+                "droughtTolerant": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 50,
+                    "max": 85
+                },
+                "companions": [
+                    "vegetables",
+                    "flowers"
+                ],
+                "family": "various"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        6,
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting herbs from seed",
                 "instructions": [
@@ -696,6 +1766,44 @@
             }
         },
         "horseradish": {
+            "characteristics": {
+                "daysToMaturity": 365,
+                "maturityNotes": "Typically harvested after one full season",
+                "frostTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "brassicas"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "harvesting": {
+                    "fall": [
+                        10,
+                        11
+                    ],
+                    "spring": [
+                        3
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Planting horseradish root cuttings",
                 "instructions": [
@@ -728,6 +1836,53 @@
             }
         },
         "leeks": {
+            "characteristics": {
+                "daysToMaturity": 120,
+                "maturityNotes": "100-140 days depending on size desired",
+                "frostTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "carrots",
+                    "celery",
+                    "onions"
+                ],
+                "family": "amaryllidaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        1,
+                        2
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "summer": [
+                        7
+                    ]
+                },
+                "harvesting": {
+                    "fall": [
+                        9,
+                        10
+                    ],
+                    "winter": [
+                        11,
+                        12
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting leeks from seed",
                 "instructions": [
@@ -760,6 +1915,55 @@
             }
         },
         "lettuce": {
+            "characteristics": {
+                "daysToMaturity": 45,
+                "maturityNotes": "30-60 days depending on variety; leaf types are fastest",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "partial-shade",
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "carrots",
+                    "radishes",
+                    "herbs"
+                ],
+                "family": "asteraceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing lettuce seeds",
                 "instructions": [
@@ -792,6 +1996,50 @@
             }
         },
         "melons": {
+            "characteristics": {
+                "daysToMaturity": 85,
+                "maturityNotes": "75-110 days; depends on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 70,
+                    "max": 95
+                },
+                "companions": [
+                    "corn",
+                    "beans",
+                    "cucumbers"
+                ],
+                "family": "cucurbitaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "fall": [
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting melons from seed",
                 "instructions": [
@@ -824,6 +2072,46 @@
             }
         },
         "okra": {
+            "characteristics": {
+                "daysToMaturity": 55,
+                "maturityNotes": "50-65 days depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtTolerant": true,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 70,
+                    "max": 95
+                },
+                "companions": [
+                    "peppers",
+                    "tomatoes"
+                ],
+                "family": "malvaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5
+                    ],
+                    "summer": [
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing okra seeds",
                 "instructions": [
@@ -856,6 +2144,49 @@
             }
         },
         "onions": {
+            "characteristics": {
+                "daysToMaturity": 120,
+                "maturityNotes": "Varies: short-, intermediate-, and long-day varieties affect timing",
+                "frostTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "carrots",
+                    "beets",
+                    "lettuce"
+                ],
+                "family": "allylaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting onions from seed, sets, or transplants",
                 "instructions": [
@@ -888,6 +2219,43 @@
             }
         },
         "parsnips": {
+            "characteristics": {
+                "daysToMaturity": 120,
+                "maturityNotes": "100-140 days; flavor improves after a few light frosts",
+                "frostTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "peas",
+                    "onions",
+                    "herbs"
+                ],
+                "family": "apiaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true
+                },
+                "harvesting": {
+                    "fall": [
+                        10,
+                        11
+                    ],
+                    "winter": [
+                        12
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing parsnip seeds",
                 "instructions": [
@@ -920,6 +2288,54 @@
             }
         },
         "peas": {
+            "characteristics": {
+                "daysToMaturity": 65,
+                "maturityNotes": "50-70 days depending on variety",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "carrots",
+                    "radishes",
+                    "lettuce"
+                ],
+                "family": "fabaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing peas in cool weather",
                 "instructions": [
@@ -952,6 +2368,45 @@
             }
         },
         "peppers": {
+            "characteristics": {
+                "daysToMaturity": 75,
+                "maturityNotes": "60-90 days from transplant depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 65,
+                    "max": 95
+                },
+                "companions": [
+                    "basil",
+                    "onions",
+                    "marigolds"
+                ],
+                "family": "solanaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        2,
+                        3
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Starting peppers from seed indoors",
                 "instructions": [
@@ -984,6 +2439,43 @@
             }
         },
         "potatoes": {
+            "characteristics": {
+                "daysToMaturity": 90,
+                "maturityNotes": "Varies: new potatoes 70-90 days; maincrop 100-140 days",
+                "frostTolerant": false,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 45,
+                    "max": 75
+                },
+                "companions": [
+                    "beans",
+                    "corn",
+                    "cabbage"
+                ],
+                "family": "solanaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8
+                    ],
+                    "fall": [
+                        9
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Planting seed potatoes",
                 "instructions": [
@@ -1016,6 +2508,23 @@
             }
         },
         "pumpkin": {
+            "characteristics": {
+                "daysToMaturity": 90,
+                "maturityNotes": "Varies: 90-120 days depending on variety",
+                "frostSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 65,
+                    "max": 95
+                },
+                "companions": [
+                    "corn",
+                    "sunflowers",
+                    "bush beans"
+                ],
+                "family": "cucurbitaceae"
+            },
             "sowed": {
                 "description": "Direct sowing pumpkins or starting transplants",
                 "instructions": [
@@ -1045,9 +2554,73 @@
                     "Store in a cool, dry area out of direct moisture",
                     "Handle carefully to avoid bruising for best storage"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
             }
         },
         "radishes": {
+            "characteristics": {
+                "daysToMaturity": 30,
+                "maturityNotes": "Quick-maturing; 25-40 days",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "lettuce",
+                    "spinach",
+                    "carrots"
+                ],
+                "family": "brassicaceae"
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "notRecommended": true
+                },
+                "harvesting": {
+                    "spring": [
+                        4,
+                        5
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
+            },
             "sowed": {
                 "description": "Direct sowing fast-maturing radish seeds",
                 "instructions": [
@@ -1080,6 +2653,22 @@
             }
         },
         "rhubarb": {
+            "characteristics": {
+                "daysToMaturity": 365,
+                "maturityNotes": "Perennial; establish first year and harvest lightly in year two",
+                "frostTolerant": true,
+                "perennial": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "strawberries"
+                ],
+                "family": "polygonaceae"
+            },
             "sowed": {
                 "description": "Starting rhubarb from crowns",
                 "instructions": [
@@ -1109,9 +2698,48 @@
                     "Avoid eating leaves as they are toxic",
                     "Store stalks refrigerated and use promptly"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "summer": [
+                        7,
+                        8
+                    ]
+                }
             }
         },
         "spinach": {
+            "characteristics": {
+                "daysToMaturity": 35,
+                "maturityNotes": "Fast-maturing; 30-45 days depending on variety",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "partial-shade",
+                "soilTemp": {
+                    "min": 35,
+                    "max": 75
+                },
+                "companions": [
+                    "peas",
+                    "lettuce"
+                ],
+                "family": "amaranthaceae"
+            },
             "sowed": {
                 "description": "Direct sowing or starting spinach indoors",
                 "instructions": [
@@ -1141,9 +2769,59 @@
                     "Avoid harvesting during heat to prevent bolting",
                     "Blanch and freeze if preserving excess"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
             }
         },
         "squash": {
+            "characteristics": {
+                "daysToMaturity": {
+                    "summer": 50,
+                    "winter": 90
+                },
+                "maturityNotes": "Summer squash 50-70 days; winter squash 80-120 days",
+                "frostSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 60,
+                    "max": 95
+                },
+                "companions": [
+                    "corn",
+                    "beans",
+                    "nasturtiums"
+                ],
+                "family": "cucurbitaceae"
+            },
             "sowed": {
                 "description": "Direct sowing summer or winter squash",
                 "instructions": [
@@ -1173,9 +2851,46 @@
                     "Cure winter squash in warm, dry place to extend storage",
                     "Store winter varieties in cool, dry conditions"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
             }
         },
         "sweet_corn": {
+            "characteristics": {
+                "daysToMaturity": 75,
+                "maturityNotes": "Varies by variety; typically 60-100 days",
+                "frostSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 60,
+                    "max": 95
+                },
+                "companions": [
+                    "beans",
+                    "squash"
+                ],
+                "family": "poaceae"
+            },
             "sowed": {
                 "description": "Direct sowing sweet corn seeds",
                 "instructions": [
@@ -1205,9 +2920,47 @@
                     "Use promptly or refrigerate to retain sweetness",
                     "Cook soon after harvest for best taste"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
             }
         },
         "sweet_potatoes": {
+            "characteristics": {
+                "daysToMaturity": 110,
+                "maturityNotes": "Long, warm season crop; 90–120+ days",
+                "frostSensitive": true,
+                "perennial": false,
+                "droughtTolerant": "moderate",
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 70,
+                    "max": 90
+                },
+                "companions": [
+                    "beans",
+                    "peppers"
+                ],
+                "family": "convolvulaceae"
+            },
             "sowed": {
                 "description": "Starting sweet potatoes from slips",
                 "instructions": [
@@ -1237,9 +2990,48 @@
                     "Store in cool, dry place but not refrigerator",
                     "Handle gently to maximize storage life"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
             }
         },
         "tomatoes": {
+            "characteristics": {
+                "daysToMaturity": 75,
+                "maturityNotes": "Varies widely; 60–100 days from transplant depending on variety",
+                "frostSensitive": true,
+                "heatTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 65,
+                    "max": 85
+                },
+                "companions": [
+                    "basil",
+                    "onions",
+                    "carrots"
+                ],
+                "family": "solanaceae"
+            },
             "sowed": {
                 "description": "Starting tomatoes from seed indoors",
                 "instructions": [
@@ -1269,9 +3061,46 @@
                     "Store at room temperature for best flavor if not fully ripe",
                     "Preserve excess by canning, drying, or freezing"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
             }
         },
         "turnips": {
+            "characteristics": {
+                "daysToMaturity": 50,
+                "maturityNotes": "Fast crop; 30–60 days depending on variety and harvest use",
+                "frostTolerant": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "peas",
+                    "onions"
+                ],
+                "family": "brassicaceae"
+            },
             "sowed": {
                 "description": "Direct sowing turnip seeds",
                 "instructions": [
@@ -1301,9 +3130,55 @@
                     "Store roots in cool, humid environment",
                     "Cook or store promptly for best flavor"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
             }
         },
         "watermelon": {
+            "characteristics": {
+                "daysToMaturity": 85,
+                "maturityNotes": "Typically 75–100 days depending on variety",
+                "frostSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 70,
+                    "max": 95
+                },
+                "companions": [
+                    "corn",
+                    "beans"
+                ],
+                "family": "cucurbitaceae"
+            },
             "sowed": {
                 "description": "Direct sowing or starting watermelon transplants",
                 "instructions": [
@@ -1333,9 +3208,46 @@
                     "Store at cool room temperature or refrigerate",
                     "Eat soon after cutting for best flavor"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
             }
         },
         "watercress": {
+            "characteristics": {
+                "daysToMaturity": 40,
+                "maturityNotes": "Quick leaf harvest; prefers cool, wet conditions",
+                "frostTolerant": true,
+                "heatSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "partial-shade",
+                "soilTemp": {
+                    "min": 40,
+                    "max": 75
+                },
+                "companions": [
+                    "lettuce"
+                ],
+                "family": "brassicaceae"
+            },
             "sowed": {
                 "description": "Starting watercress from seed or cuttings",
                 "instructions": [
@@ -1365,9 +3277,55 @@
                     "Use fresh for best flavor and texture",
                     "Store in refrigerator wrapped in damp paper towel"
                 ]
+            },
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        3,
+                        4
+                    ],
+                    "fall": [
+                        8,
+                        9
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        4
+                    ],
+                    "fall": [
+                        9
+                    ]
+                },
+                "harvesting": {
+                    "spring": [
+                        5,
+                        6
+                    ],
+                    "fall": [
+                        9,
+                        10
+                    ]
+                }
             }
         },
         "zucchini": {
+            "characteristics": {
+                "daysToMaturity": 50,
+                "maturityNotes": "Summer squash variety; 35–60 days to harvest",
+                "frostSensitive": true,
+                "droughtTolerant": false,
+                "sunRequirement": "full-sun",
+                "soilTemp": {
+                    "min": 60,
+                    "max": 95
+                },
+                "companions": [
+                    "nasturtiums",
+                    "beans"
+                ],
+                "family": "cucurbitaceae"
+            },
             "sowed": {
                 "description": "Direct sowing or starting zucchini transplants",
                 "instructions": [
@@ -1397,327 +3355,28 @@
                     "Refrigerate in plastic bag to maintain freshness",
                     "Grate or freeze excess for later use"
                 ]
-            }
-        },
-        "basil": {
-            "sowed": {
-                "description": "Starting basil from seed indoors or direct sowing",
-                "instructions": [
-                    "Start seeds indoors 6-8 weeks before last frost or sow outdoors after frost",
-                    "Provide warm temperatures and plenty of light",
-                    "Plant seeds shallowly and keep soil moist",
-                    "Thin to 6-12 inches depending on variety",
-                    "Pinch tips to promote bushy growth"
-                ]
             },
-            "transplanted": {
-                "description": "Transplanting basil seedlings",
-                "instructions": [
-                    "Harden off seedlings before transplanting",
-                    "Plant at same depth as in pots",
-                    "Space 8-12 inches apart",
-                    "Water regularly but avoid waterlogging",
-                    "Pinch flowers to extend leaf production"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting basil leaves for fresh use",
-                "instructions": [
-                    "Harvest leaves regularly by pinching above leaf nodes",
-                    "Avoid harvesting more than one-third of plant at once",
-                    "Harvest in morning for peak essential oils",
-                    "Use fresh or preserve by drying or freezing in oil",
-                    "Protect from frost and store briefly in fridge"
-                ]
-            }
-        },
-        "chives": {
-            "sowed": {
-                "description": "Starting chives from seed or divisions",
-                "instructions": [
-                    "Sow seeds shallowly in spring or divide clumps",
-                    "Provide full sun to partial shade",
-                    "Keep soil moist during establishment",
-                    "Thin to 6-12 inches apart",
-                    "Allow to flower for attractive blooms and seeds"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting chive divisions",
-                "instructions": [
-                    "Divide mature clumps in spring or fall",
-                    "Plant divisions at same depth as original",
-                    "Space clumps 6-12 inches apart",
-                    "Water in and mulch lightly",
-                    "Chives are hardy and return each year"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting chive leaves and flowers",
-                "instructions": [
-                    "Snip leaves near base as needed",
-                    "Do not remove more than one-third at a time",
-                    "Use flowers as edible garnish",
-                    "Refrigerate leftover leaves in damp towel",
-                    "Divide clumps every few years to maintain vigor"
-                ]
-            }
-        },
-        "cilantro": {
-            "sowed": {
-                "description": "Direct sowing cilantro (coriander) seeds",
-                "instructions": [
-                    "Sow seeds 1/4 inch deep in cool weather",
-                    "Space seeds 4-6 inches apart or broadcast and thin",
-                    "Keep soil moist for steady germination",
-                    "Succession sow to avoid bolting",
-                    "Provide partial shade in hot climates"
-                ]
-            },
-            "transplanted": {
-                "description": "Cilantro is usually direct-sown",
-                "instructions": [
-                    "Transplant only young seedlings carefully",
-                    "Harden off before transplanting",
-                    "Plant at same depth and water in",
-                    "Provide cool conditions to avoid bolting",
-                    "Use fast-growing varieties for cut-and-come-again harvests"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting cilantro leaves and seeds",
-                "instructions": [
-                    "Harvest leaves by cutting outer stems near base",
-                    "Use leaves fresh for best flavor",
-                    "Allow plants to flower and set seed for coriander",
-                    "Dry seeds for storage and use as spice",
-                    "Succession sow to keep continuous supply"
-                ]
-            }
-        },
-        "dill": {
-            "sowed": {
-                "description": "Direct sowing dill seeds",
-                "instructions": [
-                    "Sow seeds 1/4 inch deep in full sun",
-                    "Thin to 12-18 inches for large plants",
-                    "Dill prefers well-drained soil",
-                    "Succession sow for continued harvest",
-                    "Support tall varieties if in windy sites"
-                ]
-            },
-            "transplanted": {
-                "description": "Dill is usually direct-sown",
-                "instructions": [
-                    "Transplant only with care to avoid root disturbance",
-                    "Harden off before planting out",
-                    "Space plants as needed for airflow",
-                    "Avoid heavy fertilization that reduces flavor",
-                    "Grow near cucumbers and other compatible crops"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting dill leaves and seeds",
-                "instructions": [
-                    "Harvest leaves before flowering for best flavor",
-                    "Cut seed heads when seeds turn brown for coriander-like flavor",
-                    "Dry or freeze leaves for long-term storage",
-                    "Use fresh leaves sparingly to avoid overpowering dishes",
-                    "Collect seeds for planting or culinary use"
-                ]
-            }
-        },
-        "mint": {
-            "sowed": {
-                "description": "Starting mint from seed or divisions",
-                "instructions": [
-                    "Mint spreads vigorously; consider container planting",
-                    "Sow seeds shallowly or divide established clumps",
-                    "Provide partial shade to full sun",
-                    "Keep soil moist and well-drained",
-                    "Pinch back to encourage bushy growth"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting mint divisions",
-                "instructions": [
-                    "Transplant divisions in spring or fall",
-                    "Space 12-18 inches apart if in-ground",
-                    "Contain roots if aggressive spreading is a concern",
-                    "Water in after planting",
-                    "Harvest leaves frequently to keep plants tidy"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting mint leaves for fresh use",
-                "instructions": [
-                    "Pick leaves from the top to encourage new growth",
-                    "Use fresh leaves for best flavor",
-                    "Dry or freeze excess leaves for storage",
-                    "Trim flowering stems to divert energy to leaves",
-                    "Store harvested leaves wrapped in damp towel briefly"
-                ]
-            }
-        },
-        "oregano": {
-            "sowed": {
-                "description": "Starting oregano from seed or cuttings",
-                "instructions": [
-                    "Sow seeds shallowly or root cuttings for faster results",
-                    "Provide full sun and well-drained soil",
-                    "Thin seedlings to 8-12 inches apart",
-                    "Avoid overwatering which reduces essential oils",
-                    "Pinch to encourage bushy habit"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting oregano",
-                "instructions": [
-                    "Harden off and transplant at same depth",
-                    "Space plants 8-12 inches apart",
-                    "Provide good drainage and full sun",
-                    "Avoid excessive nitrogen fertilizer",
-                    "Prune after flowering to maintain shape"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting oregano leaves and stems",
-                "instructions": [
-                    "Harvest stems before flowering for best flavor",
-                    "Dry stems in small bunches for storage",
-                    "Strip leaves after drying and store in airtight jars",
-                    "Use fresh leaves sparingly to taste",
-                    "Propagate by cuttings to expand herb bed"
-                ]
-            }
-        },
-        "parsley": {
-            "sowed": {
-                "description": "Starting parsley from seed or transplants",
-                "instructions": [
-                    "Parsley germinates slowly; soak seeds overnight",
-                    "Start seeds indoors 8-10 weeks before last frost",
-                    "Provide even moisture and partial shade",
-                    "Thin or space plants 6-12 inches apart",
-                    "Transplants help achieve earlier harvest"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting parsley seedlings",
-                "instructions": [
-                    "Harden off seedlings and transplant when large enough",
-                    "Plant at same depth as in pots",
-                    "Space 6-12 inches apart",
-                    "Keep soil moist during establishment",
-                    "Cut outer stems to promote new growth"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting parsley leaves",
-                "instructions": [
-                    "Cut outer stems near base to encourage regrowth",
-                    "Use fresh for best flavor or chop and freeze",
-                    "Drying reduces flavor — freezing preserves it better",
-                    "Divide clumps every few years for vigor",
-                    "Store in refrigerator wrapped in damp paper towel"
-                ]
-            }
-        },
-        "rosemary": {
-            "sowed": {
-                "description": "Starting rosemary from cuttings or seed",
-                "instructions": [
-                    "Seeds are slow; cuttings are faster and more reliable",
-                    "Provide warm, bright conditions and good drainage",
-                    "Plant in gritty, well-drained mix",
-                    "Avoid overwatering which causes root rot",
-                    "Slow-growing — be patient with establishment"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting rosemary plants",
-                "instructions": [
-                    "Harden off cuttings before planting outside",
-                    "Plant in full sun with excellent drainage",
-                    "Space 2-4 feet apart depending on variety",
-                    "Avoid heavy soils; amend with grit if needed",
-                    "Water sparingly once established"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting rosemary sprigs",
-                "instructions": [
-                    "Cut new growth as needed, taking no more than one-third",
-                    "Use fresh or dry for longer storage",
-                    "Store cut sprigs in refrigerator briefly",
-                    "Prune to maintain shape and encourage bushiness",
-                    "Protect from severe winter cold in colder zones"
-                ]
-            }
-        },
-        "sage": {
-            "sowed": {
-                "description": "Starting sage from seed or cuttings",
-                "instructions": [
-                    "Seeds are slow; cuttings root quickly",
-                    "Provide full sun and well-drained soil",
-                    "Thin seedlings to 12-18 inches apart",
-                    "Avoid overwatering to keep leaves flavorful",
-                    "Harvest selectively to maintain plant vigor"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting sage",
-                "instructions": [
-                    "Harden off before moving outside",
-                    "Plant at same depth and water in",
-                    "Space 18-24 inches apart",
-                    "Provide good drainage and full sun",
-                    "Prune lightly after flowering to keep plants tidy"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting sage leaves",
-                "instructions": [
-                    "Harvest leaves before flowering for best flavor",
-                    "Dry leaves quickly to preserve oils",
-                    "Store dried leaves in airtight containers",
-                    "Avoid removing more than one-third of plant",
-                    "Use sparingly; sage is potent in cooking"
-                ]
-            }
-        },
-        "thyme": {
-            "sowed": {
-                "description": "Starting thyme from seed or cuttings",
-                "instructions": [
-                    "Thyme prefers light, gritty soil and full sun",
-                    "Sow seeds shallowly or take cuttings for faster results",
-                    "Keep soil on the drier side to avoid rot",
-                    "Thin or space plants 12-18 inches apart",
-                    "Pinch tips regularly to encourage bushiness"
-                ]
-            },
-            "transplanted": {
-                "description": "Transplanting thyme",
-                "instructions": [
-                    "Harden off and plant in well-drained soil",
-                    "Space plants 12-18 inches apart",
-                    "Avoid heavy fertilization which reduces flavor",
-                    "Water sparingly once established",
-                    "Prune after flowering to maintain shape"
-                ]
-            },
-            "harvested": {
-                "description": "Harvesting thyme sprigs",
-                "instructions": [
-                    "Harvest sprigs as needed, cutting above woody growth",
-                    "Dry or freeze for long-term storage",
-                    "Store dried leaves in airtight containers",
-                    "Use fresh leaves within a few days refrigerated",
-                    "Divide plants every few years to maintain vigor"
-                ]
-            }
+            "growingWindows": {
+                "sowing": {
+                    "spring": [
+                        4,
+                        5
+                    ]
+                },
+                "transplanting": {
+                    "spring": [
+                        5,
+                        6
+                    ]
+                },
+                "harvesting": {
+                    "summer": [
+                        7,
+                        8,
+                        9
+                    ]
+                }
+            }   
         }
     }
 }

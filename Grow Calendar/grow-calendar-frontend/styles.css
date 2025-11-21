@@ -1,25 +1,199 @@
+:root {
+    --primary-color: rgb(120, 120, 214);
+    --card-bg: #ffffff;
+    --frost-color: #c4e3ff;
+    --frost-warning: #ff9800;
+    --spring-color: #e6fff0; /* pale green */
+    --transplant-color: #fff9e6; /* pale yellow */
+    --harvest-color: #fff0e6; /* pale orange */
+    --header-bg: #f0f0f0;
+}
+
 html {
-    background: rgb(120, 120, 214);
+    background: var(--primary-color);
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
     text-align: center;
-}
-
-div {
-    background-color: yellow;
+    margin: 0;
+    padding: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
 #parentDiv {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-#weatherResults, #calendarResults {
-    width: 45%;
-    margin: 0 10px;
+/* Weather Section */
+#weatherResults {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.weekly-forecast {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scroll-snap-type: x mandatory;
+}
+
+.forecast-day {
+    flex: 0 0 200px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    scroll-snap-align: start;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.frost-banner {
+    background: var(--frost-color);
+    color: #1a1a1a;
     padding: 10px;
-    overflow-y: auto;
-    max-height: 350px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border-left: 4px solid var(--frost-warning);
+}
+
+.frost-note {
+    color: var(--frost-warning);
+    margin-top: auto;
+    font-weight: 500;
+}
+
+/* Crop Calendar Section */
+#calendarResults {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.seed-packet {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.seed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.seed-header h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.phase-badge {
+    background: var(--primary-color);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* Badge variants to match instruction block accents */
+.badge-sowing {
+    background: #2e8b57; /* spring green */
+    color: #fff;
+}
+.badge-transplant {
+    background: #f4c542; /* warm yellow */
+    color: #2b2b2b;
+}
+.badge-harvest {
+    background: #d2691e; /* harvest orange-brown */
+    color: #fff;
+}
+.badge-dormant {
+    background: #9ea7b3; /* muted gray-blue */
+    color: #fff;
+}
+
+.instructions {
+    margin: 15px 0;
+}
+
+/* Instruction block variants for sowing/transplanting/harvesting */
+.instr-sowing {
+    background: var(--spring-color);
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #2e8b57; /* spring green accent */
+}
+.instr-transplant {
+    background: var(--transplant-color);
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #f4c542; /* warm yellow accent */
+}
+.instr-harvest {
+    background: var(--harvest-color);
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #d2691e; /* harvest orange-brown accent */
+}
+
+.instructions ul, .crop-stats ul, .frost-guidance ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.instructions li, .crop-stats li, .frost-guidance li {
+    margin: 5px 0;
+}
+
+.frost-guidance {
+    background: var(--frost-color);
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+    #calendarResults {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    
+    .seed-packet {
+        margin: 0;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .weekly-forecast {
+        padding-bottom: 15px;
+    }
+    
+    .forecast-day {
+        flex: 0 0 160px;
+    }
 }
