@@ -1,11 +1,12 @@
 :root {
-    --primary-color: rgb(120, 120, 214);
+    --primary-color: #7878d6;
     --card-bg: #ffffff;
     --frost-color: #c4e3ff;
     --frost-warning: #ff9800;
     --spring-color: #e6fff0; /* pale green */
     --transplant-color: #fff9e6; /* pale yellow */
     --harvest-color: #fff0e6; /* pale orange */
+    --dormant-color: #d8d0f0; /* pale purples */
     --header-bg: #f0f0f0;
 }
 
@@ -130,7 +131,7 @@ body {
     color: #fff;
 }
 .badge-dormant {
-    background: #9ea7b3; /* muted gray-blue */
+    background: #7878d6; /* muted gray-blue */
     color: #fff;
 }
 
@@ -156,6 +157,12 @@ body {
     padding: 12px;
     border-radius: 6px;
     border-left: 4px solid #d2691e; /* harvest orange-brown accent */
+}
+.instr-dormant {
+    background: var(--dormant-color);
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #7878d6; /* harvest orange-brown accent */
 }
 
 .instructions ul, .crop-stats ul, .frost-guidance ul {
